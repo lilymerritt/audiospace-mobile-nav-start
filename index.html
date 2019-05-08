@@ -306,6 +306,37 @@
 			}
 
 		});
+		
+		$('#mobilenav h2').click( fuction(){
+								 
+			$('mainnav').slideToggle('slow');					 
+								 
+		
+		};)
+		
+		Function showHideMenu()	{
+			
+			var viewportWidth = $(window).width();
+			
+			if(viewportWidth > 600) {
+				$('#mainnav').show();
+				
+			}else{
+				$('#mainnav').hise();
+			}
+			
+			}		
+			
+	
+		showHideMenu();
+		
+		$( window ).resize(funtion()) {
+			
+			showHideMenu();
+		}
+		
+		
+		
 
 	</script>
 

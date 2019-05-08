@@ -262,7 +262,7 @@ footer .space { color:#bdd4de; }
 		box-sizing: border-box;
 		position: static;
 		width: 100%;
-		margin-bottom: :20px;
+		margin-bottom: 20px;
 		border-top: none;
 		border-left: 1px solid #ca6a0c;
 	}
