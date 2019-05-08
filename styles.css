@@ -9,7 +9,7 @@ h1, h2, h3, p, ul, ol {
 	padding: 0;
 }
 
-navul, nav ol{
+nav ul, nav ol{
 	
 	list-style-type: none;
 }
@@ -41,7 +41,7 @@ section{ padding: 30px 15px; }
 /****navigation styles****/
 
 #navigation{
-	postition: relative;
+	position: relative;
 }
 
 #mobilenav{
@@ -58,7 +58,7 @@ section{ padding: 30px 15px; }
 
 #mainnav{
 	width: 200px;
-	postion: absolute;
+	position: absolute;
 	top: 50px;
 	right: 0;
 	border-top:  1px solid #ca6a0c;

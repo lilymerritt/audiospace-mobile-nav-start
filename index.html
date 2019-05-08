@@ -39,19 +39,19 @@
 		
 		<!-- insert nav folder -->
 		<div id="navigation">
-	<nav id="mobilenav">
-		<h2>Menu <i class="fas fa-bars"></i></h2>
-	</nav>
+			<nav id="mobilenav">
+				<h2>Menu <i class="fas fa-bars"></i></h2>
+			</nav>
 
-	<nav id="mainnav">
-		<ul>
-			<li><a href="#">Home</a></li>
-			<li><a href="#">Store</a></li>
-			<li><a href="#">Artists</a></li>
-			<li><a href="#">Contact</a></li>
-		</ul>
-	</nav>
-</div>
+			<nav id="mainnav">
+				<ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="#">Store</a></li>
+					<li><a href="#">Artists</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+			</nav>
+		</div>
 		
 		
 		
@@ -307,14 +307,13 @@
 
 		});
 		
-		$('#mobilenav h2').click( fuction(){
+		$('#mobilenav h2').click( function(){
 								 
-			$('mainnav').slideToggle('slow');					 
+			$('#mainnav').slideToggle('slow');					 
 								 
+		});
 		
-		};)
-		
-		Function showHideMenu()	{
+		function showHideMenu()	{
 			
 			var viewportWidth = $(window).width();
 			
@@ -322,18 +321,17 @@
 				$('#mainnav').show();
 				
 			}else{
-				$('#mainnav').hise();
+				$('#mainnav').hide();
 			}
 			
-			}		
+		}		
 			
 	
 		showHideMenu();
 		
-		$( window ).resize(funtion()) {
-			
+		$(window).resize(function(){	
 			showHideMenu();
-		}
+		});
 		
 		
 		
